@@ -1,4 +1,4 @@
-package cn.jianke.beziercurveshoppingcart;
+package cn.will.anim;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

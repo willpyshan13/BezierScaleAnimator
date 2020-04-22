@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BezierCurveShoppingCart.iml" filepath="$PROJECT_DIR$/BezierCurveShoppingCart.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/BezierCurveShoppingCart-app.iml" filepath="$PROJECT_DIR$/app/BezierCurveShoppingCart-app.iml" group="BezierCurveShoppingCart/app" />
+      <module fileurl="file://$PROJECT_DIR$/BezierScaleAnimator.iml" filepath="$PROJECT_DIR$/BezierScaleAnimator.iml" group="BezierScaleAnimator" />
+      <module fileurl="file://$PROJECT_DIR$/app/BezierScaleAnimator-app.iml" filepath="$PROJECT_DIR$/app/BezierScaleAnimator-app.iml" group="BezierScaleAnimator/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/workspace-BezierCurveShoppingCart.iml" filepath="$PROJECT_DIR$/workspace-BezierCurveShoppingCart.iml" group="BezierCurveShoppingCart" />
     </modules>

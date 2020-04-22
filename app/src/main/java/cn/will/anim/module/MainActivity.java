@@ -1,4 +1,4 @@
-package cn.jianke.beziercurveshoppingcart.module;
+package cn.will.anim.module;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -11,7 +11,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
-import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -19,15 +18,14 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import cn.jianke.beziercurveshoppingcart.R;
-import cn.jianke.beziercurveshoppingcart.adapter.GoodsAdapter;
-import cn.jianke.beziercurveshoppingcart.model.GoodsModel;
+import cn.will.anim.R;
+import cn.will.anim.adapter.GoodsAdapter;
+import cn.will.anim.model.GoodsModel;
 
 /**
  * @className: MainActivity
  * @classDescription: 购物车页
- * @author: leibing
- * @createTime: 2016/09/28
+ * @author: will
  */
 public class MainActivity extends AppCompatActivity {
     // 购物车父布局
@@ -71,9 +69,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param
      * @return
-     * @author leibing
-     * @createTime 2016/09/28
-     * @lastModify 2016/09/28
+     * @author will
      */
     private void setAdapter() {
         // 初始化适配器
@@ -95,9 +91,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param goodsImg 商品图标
      * @return
-     * @author leibing
-     * @createTime 2016/09/28
-     * @lastModify 2016/09/28
+     * @author will
      */
     private void addGoodsToCart(ImageView goodsImg) {
         // 创造出执行动画的主题goodsImg（这个图片就是执行动画的图片,从开始位置出发,经过一个抛物线（贝塞尔曲线）,移动到购物车里）
@@ -207,9 +201,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param
      * @return
-     * @author leibing
-     * @createTime 2016/09/28
-     * @lastModify 2016/09/28
+     * @author will
      */
     private void isShowCartGoodsCount() {
         if (goodsCount == 0) {
@@ -224,9 +216,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param
      * @return
-     * @author leibing
-     * @createTime 2016/09/28
-     * @lastModify 2016/09/28
+     * @author will
      */
     private void addData() {
         // 初始化数据源

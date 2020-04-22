@@ -1,12 +1,11 @@
-package cn.jianke.beziercurveshoppingcart.model;
+package cn.will.anim.model;
 
 import android.graphics.Bitmap;
 
 /**
  * @className: GoodsModel
  * @classDescription: 商品实体类
- * @author: leibing
- * @createTime: 2016/09/28
+ * @author: will
  */
 public class GoodsModel {
     // 商品图

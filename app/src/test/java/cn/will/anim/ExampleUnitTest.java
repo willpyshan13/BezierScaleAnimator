@@ -1,4 +1,4 @@
-package cn.jianke.beziercurveshoppingcart;
+package cn.will.anim;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package cn.jianke.beziercurveshoppingcart.adapter;
+package cn.will.anim.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,17 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
-import cn.jianke.beziercurveshoppingcart.R;
-import cn.jianke.beziercurveshoppingcart.model.GoodsModel;
+import cn.will.anim.R;
+import cn.will.anim.model.GoodsModel;
 
 /**
- * @className: GoodsAdapter
- * @classDescription: 购物车商品适配器
- * @author: leibing
- * @createTime: 2016/09/28
+ * @author  will
  */
 public class GoodsAdapter extends BaseAdapter{
     // 数据源（购物车商品图片）
@@ -28,9 +24,7 @@ public class GoodsAdapter extends BaseAdapter{
 
     /**
      * 构造函数
-     * @author leibing
-     * @createTime 2016/09/28
-     * @lastModify 2016/09/28
+     * @author will
      * @param context 上下文
      * @param mData 数据源（购物车商品图片）
      * @return
@@ -77,8 +71,7 @@ public class GoodsAdapter extends BaseAdapter{
     /**
      * @className: ViewHolder
      * @classDescription: 商品ViewHolder
-     * @author: leibing
-     * @createTime: 2016/09/28
+     * @author: will
      */
     class  ViewHolder{
         // 显示商品图片
@@ -86,9 +79,7 @@ public class GoodsAdapter extends BaseAdapter{
 
         /**
          * 构造函数
-         * @author leibing
-         * @createTime 2016/09/28
-         * @lastModify 2016/09/28
+         * @author will
          * @param view 视图
          * @return
          */
@@ -108,9 +99,7 @@ public class GoodsAdapter extends BaseAdapter{
 
         /**
          * 更新UI
-         * @author leibing
-         * @createTime 2016/09/28
-         * @lastModify 2016/09/28
+         * @author will
          * @param goods 商品实体对象
          * @return
          */
@@ -124,9 +113,7 @@ public class GoodsAdapter extends BaseAdapter{
 
     /**
      * 设置回调监听
-     * @author leibing
-     * @createTime 2016/09/28
-     * @lastModify 2016/09/28
+     * @author will
      * @param mCallBackListener 回调监听
      * @return
      */
@@ -137,8 +124,7 @@ public class GoodsAdapter extends BaseAdapter{
     /**
      * @interfaceName: CallBackListener
      * @interfaceDescription: 回调监听
-     * @author: leibing
-     * @createTime: 2016/09/28
+     * @author: will
      */
     public interface CallBackListener{
         void callBackImg(ImageView goodsImg);
