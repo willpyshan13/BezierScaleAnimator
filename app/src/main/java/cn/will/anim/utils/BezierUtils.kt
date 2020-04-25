@@ -1,4 +1,4 @@
-package com.vv.life.base.utils
+package cn.will.anim.utils
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -8,11 +8,7 @@ import android.graphics.Path
 import android.graphics.PathMeasure
 import android.view.ViewGroup
 import android.widget.ImageView
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
-import com.vv.life.base.entity.cart.CartRefreshEvent
-import com.vv.life.mvvmhabit.bus.RxBus
+
 
 /**
  *
