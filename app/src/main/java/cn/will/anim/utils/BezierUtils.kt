@@ -90,7 +90,6 @@ object BezierUtils {
 
             override fun onAnimationEnd(animation: Animator?) {
                 viewGroup.removeView(bezierView)
-                RxBus.getDefault().post(CartRefreshEvent())
             }
 
             override fun onAnimationCancel(animation: Animator?) {
